@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">B&amp;C Games Helper</string>
+    <string name="action_help">Help</string>
+    <string name="action_reset">Reset</string>
+
+    <string name="title_activity_counter_setup">CounterSetupActivity</string>
+    <string-array name="colors">
+        <item>"Black"</item>
+        <item>"Gray"</item>
+        <item>"Light gray"</item>
+        <item>"Yellow"</item>
+        <item>"Green"</item>
+        <item>"Red"</item>
+        <item>"Cyan"</item>
+        <item>"Blue"</item>
+        <item>"Purple"</item>
+        <item>"Orange"</item>
+    </string-array>
+
+
+
+    <string-array name="fragments">
+        <item>"Empty"</item>
+        <item>"Counter"</item>
+        <item>"Die"</item>
+    </string-array>
+    <string name="title_activity_main">>Board &amp; Card Games Helper</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setup">Item Setup</string>
+    <string name="title_activity_help">Help</string>
+    <string name="help">
+          \tThis little app here should serve as your best friend in most board or card games. Use it whenever you\'re lacking a die or you need to count some points.\n\n
+          \tThere are 9 slots in the main screen. You can fill each of them with a customized counter or die using the little cog button, which will bring you to the Item Setup screen. There you can also decide to simply remove the item that was previously occupying this slot.\n\n
+          \tWhenever you\'re on the main screen you can also decide to remove all items by choosing option "reset" in the pop up menu.\n\n
+          \tWhen creating a new counter you can choose it\'s name and color.\n\n
+          \tWhen creating a new die, you can also choose it\'s name and color, and additionally the range of values that can be rolled with it by specifying the lower and upper bound.
+
+
+    </string>
+    <string name="copyright">© 2015 Tymoteusz Kaczorowski</string>
+
+</resources>

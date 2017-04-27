@@ -1,0 +1,111 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lay"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/lay1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:baselineAligned="true">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot1"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:id="@+id/slot2"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot3"
+            android:layout_weight="1">
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/lay2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:baselineAligned="true">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot4"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot5"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot6"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/lay3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:baselineAligned="true">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot7"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot8"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/slot9"
+            android:layout_weight="1" >
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
